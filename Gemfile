@@ -12,6 +12,7 @@ gem 'coffee-rails', '4.2.2'
 gem 'jquery-rails', '4.3.1'
 gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
+gem 'devise'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
@@ -20,7 +21,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-byebug'
   gem 'database_cleaner'
-  gem 'factory_girl_rails'
+  gem 'factory_bot'
   gem 'simplecov'
 end
 
